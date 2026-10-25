@@ -1,0 +1,5 @@
+system,architecture,adaptation,bleu,chrf,training_seconds,avg_inference_seconds,total_parameters,trainable_parameters,device,notes
+Basic Transformer,Encoder-decoder,From scratch,0.1557,6.2022,1860.85,0.3818,196313332,196313332,Apple MPS,Shared mT5 tokenizer only; Transformer weights initialized from scratch.
+mT5-small,Encoder-decoder,Fine-tuned,0.0326,0.125,623.2,0.1528,300176768,300176768,Apple MPS,Fine-tuned on selected OPUS-100 English-Hindi subset.
+LLaMA 3.2 1B Instruct,Decoder-only,Prompt-only,1.9715,18.9162,0.0,1.3709,1235814400,0,Apple MPS,Prompt-only; model_id=unsloth/Llama-3.2-1B-Instruct; temperature=0.0; tested on same 100 test set.
+Gemma 2 2B IT,Decoder-only,Prompt-only,6.1494,25.9899,0.0,2.5339,2614341888,0,Apple MPS,Prompt-only; model_id=unsloth/gemma-2-2b-it; temperature=0.0; tested on same 100 test set.

@@ -1,0 +1,5 @@
+model,temperature,bleu,chrf,avg_inference_seconds,samples,device
+gemma,0.0,9.8574,29.6788,2.8980801290327993,30,Apple MPS
+gemma,0.3,10.3557,29.3725,2.4815875903349176,30,Apple MPS
+gemma,0.7,9.0082,27.2497,2.7963631291990168,30,Apple MPS
+gemma,1.0,7.4567,26.8109,2.842100637465774,30,Apple MPS

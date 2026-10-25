@@ -1,0 +1,5 @@
+model,temperature,bleu,chrf,avg_inference_seconds,samples,device
+llama,0.0,3.0296,20.9921,1.1625929764651421,30,Apple MPS
+llama,0.3,3.7475,19.8901,1.1262390415683816,30,Apple MPS
+llama,0.7,3.7529,20.2083,1.6004571985661944,30,Apple MPS
+llama,1.0,1.9136,17.431,1.673109448600735,30,Apple MPS
